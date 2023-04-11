@@ -30,10 +30,10 @@ To run your script type this in terminal
 
 ## Adjust index.js
 
-Change token to your moodle session moodle session obtained from after login on vclass
+Change token to your moodle session moodle session obtained after login on vclass
 
 ```bash
   const token = "your moodle session"
 ```
 
-You can also you can also edit targetList. targetList is a list of learning urls contained in a course in vclass.
+You can also edit targetList. targetList is a list of learning urls contained in a course in vclass.
