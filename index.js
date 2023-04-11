@@ -1,9 +1,9 @@
-const axios = require("axios");
+import axios from "axios";
 axios.defaults.withCredentials = true;
 
 const main = async function () {
   const token = "5dirpaa5jug1prvggv0tpu3fs3";
-  tmp = 0;
+
   const targetList = [
     "https://vclass.unila.ac.id/mod/quiz/view.php?id=919343",
     "https://vclass.unila.ac.id/mod/quiz/view.php?id=919324",
@@ -39,6 +39,7 @@ const main = async function () {
           Cookie: `MoodleSession=${token};`,
         },
       });
+      
       console.log(res);
     }
   }
