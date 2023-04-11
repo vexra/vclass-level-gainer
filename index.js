@@ -3,7 +3,7 @@ axios.defaults.withCredentials = true;
 
 const main = async function () {
   const token = "5dirpaa5jug1prvggv0tpu3fs3";
-
+  let counter = 0;
   const targetList = [
     "https://vclass.unila.ac.id/mod/quiz/view.php?id=919343",
     "https://vclass.unila.ac.id/mod/quiz/view.php?id=919324",
@@ -40,7 +40,7 @@ const main = async function () {
         },
       });
       
-      console.log(res);
+      console.log(counter++);
     }
   }
 };
