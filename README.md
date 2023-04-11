@@ -19,12 +19,12 @@ Install axios with npm
   npm install axios
 ```
     
-## Deployment
+## Run
 
 To run your script type this in terminal
 
 ```bash
-  npm run deploy
+  npm run start
 ```
 
 
