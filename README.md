@@ -28,7 +28,7 @@ To run your script type this in terminal
 ```
 
 
-## Adjust tmp.js
+## Adjust index.js
 
 Change token to your moodle session moodle session obtained from after login on vclass
 
