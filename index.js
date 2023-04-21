@@ -2,7 +2,7 @@ import axios from "axios";
 axios.defaults.withCredentials = true;
 
 const main = async function () {
-  const token = "5dirpaa5jug1prvggv0tpu3fs3";
+  const token = "your token here";
   let counter = 0;
   const targetList = [
     "https://vclass.unila.ac.id/mod/quiz/view.php?id=919343",
